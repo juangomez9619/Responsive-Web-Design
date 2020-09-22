@@ -1,0 +1,33 @@
+body
+{
+  font-family:times;
+  background-color:#379F80;
+  
+}
+
+header
+{
+  text-align:center;
+  background-color:#6FC1A9;
+}
+
+#img-div
+{  display: block;
+  justify-content:center;
+  text-align:center; 
+  
+}
+
+#image
+{
+ display: block;
+ max-width: 10%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tribute-info
+{
+  text-align:justify;
+}
