@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Título de la página</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 id="title"> Encuesta de consumo de Hamburguesas </h1>
+        <p id="description"> Agradecemos su colaboración llenando esta encuesta</p>
+        
+        <form id="survey-form">
+          <div>
+            <!--  NOMBRE-->
+          <label for="name" id="name-label"> Nombre:</label><br>
+          <input type="text" placeholder="Ingresa tu nombre"  id="name" required><br>
+            <!--   EMAIL-->
+            <label for="email" id="email-label"> E-mail:</label><br>
+          <input type="email" placeholder="Ingresa tu correo"  id="email" required> <br>
+           <!--  numero-->
+                   <label for="number" id="number-label"> Número de hamburguesas consumidas en el último año:</label><br>
+          <input type="number" placeholder="Ingresa la cantidad"  id="number"   min="1" max="50" required>
+            <br>  
+            <!-- lista despleagada-->
+            <label for="dropdown" id="dropdown-label">Mejor restaurante:</label><br>
+            <select id="dropdown">
+              <option value="Corral">El corral</option>
+              <option value="rodeo">El rodeo</option>
+            </select> 
+            
+            <br> Eliga el tamaño de su preferencia<br>
+            <label for="sencilla">
+              <input id="sencilla" 
+                     type="radio"
+                     name="tipo"
+                     value="Sencilla">Sencilla
+            </label>
+            <label for="doble">
+              <input id="doble" 
+                     type="radio"
+                     value="Doble"
+                     name="tipo">Doble
+            </label> 
+            <label for="triple">
+              <input id="triple" 
+                     type="radio"
+                     value="Triple"
+                     name="tipo">Triple
+            </label>    
+            <!-- CheckBox -->
+            <br>Seleccione las bebidas de su preferencia:<br>
+            <label for="Sprite">
+              <input id="Sprite"
+                     type="checkbox"
+                     value="sprite"
+                     name="bebida">Sprite
+            </label>         
+            <label for="pepsi">
+              <input id="pepsi"
+                     type="checkbox"
+                     value="pepsi"
+                     name="bebida">Pepsi
+            </label>    
+            <br>
+            <textarea name="comentarios"
+                      rows="10"
+                      cols="50">
+                      Comentarios adicionales
+            </textarea><br>
+            <button type="submit"
+                    id="submit">
+              Subir info
+              </button>
+            </div>
+        </form>
+        
+      </body>
+
+
+</html>
+    

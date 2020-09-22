@@ -1,0 +1,13 @@
+body
+{ background:url("https://i.pinimg.com/736x/1c/81/ef/1c81efd0d7a55b520961c1aba501fddb.jpg");
+  color:white;
+}
+h1,p
+{
+  text-align:center;
+}
+
+div
+{
+  padding: 10px 0px 0px 200px;
+}
